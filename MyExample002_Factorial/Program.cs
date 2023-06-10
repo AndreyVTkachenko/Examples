@@ -5,9 +5,9 @@ Console.Write("Введите число для нахождения факто�
 int N = Console.Read();
 int F = 1;
 
-if(N>1)
+while(N>=1)
 {
     F = F*N;
     N = N - 1;
 }
-Console.WriteLine(F);
+Console.Write(F);
